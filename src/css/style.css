@@ -1,0 +1,326 @@
+* {
+	font-family: "Gilroy";
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	position: relative;
+	width: 1240px;
+	margin: 0 auto; 
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.promo {
+	background-color: #242424;
+	height: 933px;
+}
+
+.promo .promo-img {
+	min-height: 933px;
+	width: 1940px;
+	margin: 0 auto; 
+	background: url("../img/promo/bl1-3.jpg") no-repeat;
+	
+}
+
+.promo .subheader {
+	padding-top: 20px;
+}
+
+.promo .subheader-list {
+	display: grid;
+	grid-template-columns: 286px 278px 396px 249px;
+	gap: 10px;
+	list-style-type: none;
+	padding: 0;
+}
+
+.promo .subheader-list .subheader-item {
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 42px;
+    font-family: 'Gilroy';
+    font-weight: 800;
+}
+
+.promo .subheader-list .subheader-item .light {
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 28px;
+    font-family: 'Gilroy';
+    font-weight: 300;
+}
+
+.promo .subheader-list .subheader-item .ml {
+	margin-left: 44px;
+}
+
+.promo .subheader-list .subheader-item .icons {
+	width: 25px;
+}
+
+.promo .subheader-list .subheader-item .whatsapp {
+	margin-left: 10px;
+}
+
+.promo .subheader-list .subheader-item .tel {
+    line-height: 36px;
+    font-size: 26px;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-weight: 800;
+	margin-left: 10px;
+}
+
+.promo .promo-main {
+    position: relative;
+	padding-top: 101px;
+}
+
+.promo .promo-main p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 24px;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    left: 124px;
+}
+
+.promo .promo-main h1 {
+    text-shadow: 0px 0px 17px rgba(255,255,255,0.17);
+    box-shadow: none;
+    text-transform: uppercase;
+    font-size: 43px;
+    color: #fff;
+    line-height: 60px;
+    font-family: 'Gilroy';
+    font-weight: 800;
+    margin-top: 11px;
+
+}
+
+.promo .promo-main .main-car {
+    position: absolute;
+    top: -6px;
+    right: -326px;
+}
+
+.promo .promo-main .form {
+	margin-top: 24px;
+    width: 517px;
+    height: 235px;
+}
+
+.promo .promo-main .form .width-276 {
+    width: 276px;
+    height: 58px;
+}
+
+.promo .promo-main .form .width-203 {
+    width: 203px;
+    height: 58px;
+}
+
+.promo .promo-main .form .form-hover:hover {
+    background-color: #fff;
+    color: #242424;
+}
+
+.promo .promo-main .form #form {
+    display: grid;
+    grid-template-columns: 276px 203px;
+    grid-template-rows: repeat(2, 1fr 1fr);
+    gap: 20px;
+}
+
+.promo .promo-main .form .form-blue {
+    background-color: #007FCC;
+    font-family: "Gilroy";
+    font-weight: 800;
+    color: #fff;
+}
+
+.promo .promo-main .form .form-blue:hover {
+    background-color: #068DDF;
+}
+
+.promo .promo-main input:last-child {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #007FCC;
+    background-color: #242424;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #B5B5B5;
+    line-height: 44px;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    position: relative;
+    padding: 6px 6px 6px 17px;
+}
+
+.promo .promo-main .form .checked {
+    display: flex;
+}
+
+.promo .promo-main .form .checked p {
+    border-width: 0px;
+    text-align: left;
+    font-size: 14px;
+    color: #666666;
+    line-height: 14px;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.promo .promo-wrapper {
+    padding-top: 44px;
+    width: 1200px;
+}
+
+.promo .promo-wrapper .promo-wrapper-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.promo .promo-wrapper .promo-wrapper-item {
+    display: grid;
+    grid-template-columns: 73px 277px;
+    align-items: center;
+    gap: 41px;
+}
+
+.promo .promo-wrapper .item-circle {
+    border-radius: 50%;
+    background-color: #fff;
+    width: 73px;
+    height: 73px;
+}
+
+.promo .promo-wrapper .item-circle img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.priority {
+    background-color: #f5f5f7;
+    padding-top: 75px;
+    padding-bottom: 75px; 
+}
+.priority h2 {
+    min-height: 70px;
+    text-shadow: 0px 0px 17px rgba(255, 255, 255, 0.17);
+    box-shadow: none;
+    line-height: 70px;
+    font-size: 50px;
+    text-align: center;
+    color: #242424;
+    font-family: 'Gilroy';
+    font-weight: 800; 
+}
+.priority p {
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: #242424;
+    font-family: 'Gilroy';
+    font-weight: 800;
+    margin-left: 102px;
+    margin-bottom: 50px; 
+}
+.priority p span {
+    font-weight: normal; 
+}
+.priority-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style-type: none;
+    padding: 0;
+    grid-gap: 20px; 
+}
+.priority-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px; 
+}
+.priority-list-item h3 {
+    line-height: 27px;
+    font-size: 18px;
+    color: #242424;
+    font-family: 'Gilroy';
+    font-weight: 800;
+    margin-bottom: 15px; 
+}
+.priority-list-item p {
+    line-height: 24px;
+    font-size: 16px;
+    color: #242424;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    margin: 0 auto; 
+}
+.priority-list-item p span {
+    color: #7F7F7F;
+    font-family: 'Gilroy';
+    font-weight: 800; 
+}
+.priority-list-item-icons {
+    width: 64px;
+    border-radius: 70px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.07);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F5F5F7;
+    background-color: #FFFFFF;
+    line-height: 64px;
+    font-size: 28px;
+    text-align: center;
+    color: #007FCC;
+    font-family: 'Gilroy';
+    font-weight: 800;
+    margin-bottom: 18px; 
+}
+
+.divider {
+    position: relative;
+    background-color: #007fcc;
+    height: 120px; 
+}
+.divider .container {
+    padding: 0 auto; 
+}
+.divider img {
+    position: absolute;
+    top: -30px;
+    left: 200px;
+    border-radius: 50%; 
+}
+.divider p {
+    padding-top: 25px;
+    margin-left: 500px;
+    color: #FFF;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300; 
+    line-height: 24px;
+}
+
+
+
+
+
