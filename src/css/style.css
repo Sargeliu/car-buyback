@@ -320,6 +320,135 @@ a {
     line-height: 24px;
 }
 
+.contract {
+    padding-top: 75px;
+    padding-bottom: 55px; 
+    width: 1940px;
+    background: url("../img/contract/bl8.jpg") no-repeat;
+    margin: 0 auto;
+}
+.contract ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+.contract .contract-blocks {
+    display: flex;
+    justify-content: space-between; 
+}
+.contract .contract-descr h2 {
+    text-shadow: 0px 0px 17px rgba(255, 255, 255, 0.17);
+    box-shadow: none;
+    line-height: 60px;
+    font-size: 50px;
+    text-align: left;
+    color: #242424;
+    font-family: 'Gilroy';
+    font-weight: 800;
+    margin-left: 8px;
+    padding-bottom: 25px; 
+}
+.contract .contract-descr h2 span {
+      color: #0782cd; 
+    }
+.contract .contract-header {
+    line-height: 40px;
+    font-size: 22px;
+    text-align: left;
+    color: #242424;
+    font-family: 'Gilroy';
+    font-weight: 300; 
+}
+.contract .contract-header-item {
+    position: relative;
+}
+
+.contract .contract-header-item p {
+    margin-left: 55px;
+    line-height: 40px;
+}
+
+.contract .contract-header-item .checkbox::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    background-image: url("../icons/contract/tick.png");
+}
+
+.contract .contract-doc li {
+    line-height: 19px;
+    font-size: 16px;
+    text-align: left;
+    color: #242424;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    margin-left: 21px;
+    margin-top: 8px;
+}
+
+.contract .icons {
+    display: flex;
+    justify-content: start;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.contract .contract-doc {
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+.contract .contract-doc li {
+    position: relative;
+}
+
+.contract .contract-doc li > .dash::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgb(0, 127, 204);
+    top: 11px;
+    left: -20px;
+    width: 12px;
+    height: 1px;
+}
+
+.contract .contract-of-sale img {
+    display: block;
+    box-shadow: 0 0 25px 0 #34495e;
+}
+
+.contract .contract-btn {
+    width: 384px;
+    min-height: 60px;
+    box-shadow: 0px 10px 40px rgba(0,127,204,0.2);
+    border-style: solid;
+    border-color: #068DDF;
+    background-color: #007FCC;
+    border-radius: 3px;
+    line-height: 56px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Futura PT';
+    font-weight: 700;
+    margin-top: 34px;
+  
+}
+
+{
+    padding-top: 75px;
+    padding-bottom: 55px; 
+    width: 1940px;
+    background: url("../img/contract/bl8.jpg") no-repeat;
+    margin: 0 auto;
+}
+
+
 
 
 
