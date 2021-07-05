@@ -6,6 +6,17 @@
     color: #242424;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
 .bold-blue {
     font-size: 50px;
     color: #0782cd; 
@@ -24,6 +35,7 @@ ul {
     background-color: #007FCC;
     text-align: center;
     color: #fff;
+    transition: 0.3s all;
 }
 
 .btn:hover {
@@ -172,6 +184,7 @@ a {
     font-family: "Gilroy";
     font-weight: 800;
     color: #fff;
+    transition: 0.3s all;
 }
 
 .promo .promo-main .form .form-blue:hover {
@@ -340,6 +353,10 @@ a {
     font-style: italic;
     font-weight: 300; 
     line-height: 24px;
+}
+
+.divider p q {
+    color: #fff;
 }
 
 .contract {
@@ -617,9 +634,7 @@ a {
     margin-top: 75px;
 }
 
-.time .time-form form {
-    display: grid;
-    grid-template-columns: 279px;
+.time #time-form {
     margin-top: 20px;
 }
 
@@ -632,7 +647,7 @@ a {
     font-weight: 800;
 }
 
-.time .time-form .time-form-tel {
+.time .time-form #time-form-phone {
     width: 279px;
     height: 60px;
     border-style: solid;
@@ -646,9 +661,11 @@ a {
     font-family: 'Gilroy';
     font-weight: 300;
     padding: 6px 6px 6px 17px;
+    margin-bottom: 20px;
 }
 
 .time .time-form .time-btn {
+    position: relative;
     width: 279px;
     height: 60px;
     border-style: solid;
@@ -662,10 +679,13 @@ a {
     font-family: 'Gilroy';
     font-weight: 800;
     position: relative;
-    margin-right: -10000px;
     margin-top: 86px;
     padding: 7px 3px 0px 0px;
     border-width: 0px 0px 3px;
+}
+
+.time .time-form .time-btn:hover {
+    background-color: #C1272D;
 }
 
 
