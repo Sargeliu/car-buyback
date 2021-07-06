@@ -823,7 +823,93 @@ a {
     height: 46px;
 }
 
+.guarantee {
+    width: 1940px;
+    height: 475px;
+    background: url("../img/guarantee/bl5.jpg") no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding-top: 75px;
+}
 
+.guarantee h2 {
+    line-height: 42px;
+    font-size: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-weight: 800;
+}
+
+.guarantee p {
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.guarantee .guarantee-form {
+    text-align: center;
+    margin-top: 55px;
+    height: 58px;
+}
+
+.guarantee #guarantee-form-phone {
+    width: 308px;
+    height: 58px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #007FCC;
+    background-color: #F5F5F7;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #7F7F7F;
+    line-height: 44px;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    padding: 6px 6px 6px 17px;
+}
+
+.guarantee .guarantee-form .guarantee-btn {
+    width: 308px;
+    height: 58px;
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 800;
+    padding: 7px 3px 0px 0px;
+    border-width: 0px 0px 3px;
+    margin-left: 30px;
+}
+
+.guarantee .guarantee-form .guarantee-checkbox-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.guarantee .guarantee-form .guarantee-checkbox {
+    width: 16px;
+    height: 16px;
+}
+
+.guarantee .guarantee-form .guarantee-checkbox-label {
+    display: inline-block;
+    line-height: 12px;
+    font-size: 12px;
+    color: #666666;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.buyback {
+    min-height: 611px;
+    background-color: #F5F5F7;
+}
 
 
 
