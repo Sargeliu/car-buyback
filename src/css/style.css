@@ -635,6 +635,7 @@ a {
 }
 
 .time #time-form {
+    width: 277px;
     margin-top: 20px;
 }
 
@@ -678,15 +679,39 @@ a {
     line-height: 40px;
     font-family: 'Gilroy';
     font-weight: 800;
-    position: relative;
-    margin-top: 86px;
+    margin-top: 10px;
     padding: 7px 3px 0px 0px;
     border-width: 0px 0px 3px;
+    transition: 0.3s all;
 }
 
 .time .time-form .time-btn:hover {
     background-color: #C1272D;
 }
+
+.time .time-form .time-checkbox-block {
+    display: flex;
+    height: 38px;
+    margin-top: 30px;
+}
+
+.time .time-form .time-checkbox {
+    width: 16px;
+    height: 16px;
+}
+
+.time .time-form .time-checkbox-label {
+    display: inline-block;
+    width: 186px;
+    line-height: 12px;
+    font-size: 12px;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    margin-left: 12px;
+}
+
 
 
 

@@ -85,9 +85,8 @@
 							<label>
 								<input type="submit" class="width-276 form-blue" value="Узнать стоимость">
 							</label>
-							<label>
-								<input type="file" class="width-203" name="upload">
-							</label>
+							<input type="file" class="inputfile" name="file" id="file">
+							<label for="file" class="width-203">Загрузить фото</label>
 							<label for="checked" class="checked">
 								<input type="checkbox" name="checked" id="checked" checked>
 								<p>Нажимая кнопку вы соглашаетесь с условиями политики конфиденциальности</p>
@@ -291,15 +290,25 @@
 				</div>
 				<div class="time-form">
 					<h3>Получите бесплатную консультацию по выкупу</h3>
-					<form id="time-form" action="#" method="post" enctype="multipart/form-data">
+					<form id="time-form" action="#" method="post">
 						<label for="time-form-phone" class="visually-hidden">Введите Ваш телефон</label>
 						<input type="tel" name="time-form-phone" id="time-form-phone" placeholder="Введите Ваш телефон" required>
 						<br>
 						<button class="time-btn">Получить консультацию</button>
+						<br>
+						<p class="time-checkbox-block">
+							<input type="checkbox" name="time-checkbox" id="time-checkbox" class="time-checkbox" checked>
+							<label for="time-checkbox" class="time-checkbox-label">Нажимая кнопку Вы соглашаетесь с условиями политики конфиденциальности</label>
+						</p>
 					</form>
 				</div>
 			</div>
 			<div class="time-sg"></div>
+		</div>
+	</section>
+	<section class="cars">
+		<div class="container">
+			<h2><span class="bold-blue">Купим любой автомобиль,</span> а именно:</h2>
 		</div>
 	</section>
 </body>
