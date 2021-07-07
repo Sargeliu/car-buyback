@@ -68,7 +68,6 @@ a {
 	width: 1940px;
 	margin: 0 auto; 
 	background: url("../img/promo/bl1-3.jpg") no-repeat;
-	
 }
 
 .promo .subheader {
@@ -143,7 +142,6 @@ a {
     font-family: 'Gilroy';
     font-weight: 800;
     margin-top: 11px;
-
 }
 
 .promo .promo-main .main-car {
@@ -152,35 +150,41 @@ a {
     right: -326px;
 }
 
-.promo .promo-main .form {
+.promo .promo-main .form,
+.sale .sale-main .form {
 	margin-top: 24px;
     width: 517px;
     height: 235px;
 }
 
-.promo .promo-main .form .width-276 {
+.promo .promo-main .form .width-276,
+.sale .sale-main .form .width-276 {
     width: 276px;
     height: 58px;
 }
 
-.promo .promo-main .form .width-203 {
+.promo .promo-main .form .width-203,
+.sale .sale-main .form .width-203 {
     width: 203px;
     height: 58px;
 }
 
-.promo .promo-main .form .form-hover:hover {
+.promo .promo-main .form .form-hover:hover,
+.sale .sale-main .form .form-hover:hover {
     background-color: #fff;
     color: #242424;
 }
 
-.promo .promo-main .form #form {
+.promo .promo-main .form #form,
+.sale .sale-main .form #form {
     display: grid;
     grid-template-columns: 276px 203px;
     grid-template-rows: repeat(2, 1fr 1fr);
     gap: 20px;
 }
 
-.promo .promo-main .form .form-blue {
+.promo .promo-main .form .form-blue,
+.sale .sale-main .form .form-blue {
     background-color: #007FCC;
     font-family: "Gilroy";
     font-weight: 800;
@@ -188,11 +192,13 @@ a {
     transition: 0.3s all;
 }
 
-.promo .promo-main .form .form-blue:hover {
+.promo .promo-main .form .form-blue:hover,
+.sale .sale-main .form .form-blue:hover {
     background-color: #068DDF;
 }
 
-.promo .promo-main input:last-child {
+.promo .promo-main input:last-child,
+.sale .sale-main input:last-child {
     border-style: solid;
     border-width: 1px;
     border-color: #007FCC;
@@ -207,11 +213,13 @@ a {
     padding: 6px 6px 6px 17px;
 }
 
-.promo .promo-main .form .checked {
+.promo .promo-main .form .checked,
+.sale .sale-main .form .checked {
     display: flex;
 }
 
-.promo .promo-main .form .checked p {
+.promo .promo-main .form .checked p,
+.sale .sale-main .form .checked p {
     border-width: 0px;
     text-align: left;
     font-size: 14px;
@@ -1074,6 +1082,36 @@ a {
 .stages .stages-divider .stages-help .stages-messenger .stages-messenger-icons .stages-messenger-text {
     display: inline-block;
     margin-left: 10px;
+}
+
+.sale .sale-img {
+    padding-top: 75px;
+	min-height: 790px;
+	width: 1940px;
+	margin: 0 auto; 
+	background: url("../img/sale/bl7.jpg") no-repeat;
+}
+
+.sale .sale-main h2 {
+    width: 741px;
+    text-shadow: 0px 0px 17px rgba(255,255,255,0.17);
+    line-height: 60px;
+    font-size: 50px;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.sale .sale-main p {
+    width: 713px;
+    line-height: 27px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    margin-top: 20px;
 }
 
 
