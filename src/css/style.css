@@ -70,17 +70,20 @@ a {
 	background: url("../img/promo/bl1-3.jpg") no-repeat;
 }
 
-.promo .subheader {
+.promo .subheader,
+.main-footer .subheader {
 	padding-top: 20px;
 }
 
-.promo .subheader-list {
+.promo .subheader-list,
+.main-footer .subheader-list {
 	display: grid;
 	grid-template-columns: 286px 278px 396px 249px;
 	gap: 10px;
 }
 
-.promo .subheader-list .subheader-item .logo{
+.promo .subheader-list .subheader-item .logo,
+.main-footer .subheader-list .subheader-item .logo {
     font-size: 30px;
     color: #fff;
     line-height: 42px;
@@ -88,7 +91,8 @@ a {
     font-weight: 800;
 }
 
-.promo .subheader-list .subheader-item .light {
+.promo .subheader-list .subheader-item .light,
+.main-footer .subheader-list .subheader-item .light {
     font-size: 16px;
     color: #FFFFFF;
     line-height: 28px;
@@ -96,19 +100,23 @@ a {
     font-weight: 300;
 }
 
-.promo .subheader-list .subheader-item .ml {
+.promo .subheader-list .subheader-item .ml,
+.main-footer .subheader-list .subheader-item .ml {
 	margin-left: 44px;
 }
 
-.promo .subheader-list .subheader-item .icons {
+.promo .subheader-list .subheader-item .icons,
+.main-footer .subheader-list .subheader-item .icons {
 	width: 25px;
 }
 
-.promo .subheader-list .subheader-item .whatsapp {
+.promo .subheader-list .subheader-item .whatsapp,
+.main-footer .subheader-list .subheader-item .whatsapp {
 	margin-left: 10px;
 }
 
-.promo .subheader-list .subheader-item .tel {
+.promo .subheader-list .subheader-item .tel,
+.main-footer .subheader-list .subheader-item .tel {
     line-height: 36px;
     font-size: 26px;
     text-align: left;
@@ -1153,6 +1161,11 @@ a {
 .contacts .contacts-main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.main-footer {
+    height: 85px;
+    background-color: #242424;
 }
 
 
