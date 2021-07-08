@@ -177,11 +177,7 @@ a {
     height: 58px;
 }
 
-.promo .promo-main .form .form-hover:hover,
-.sale .sale-main .form .form-hover:hover {
-    background-color: #fff;
-    color: #242424;
-}
+
 
 .promo .promo-main .form #form,
 .sale .sale-main .form #form {
@@ -217,7 +213,6 @@ a {
     line-height: 44px;
     font-family: 'Gilroy';
     font-weight: 300;
-    position: relative;
     padding: 6px 6px 6px 17px;
 }
 .inputfile {
@@ -229,13 +224,39 @@ a {
 	z-index: -1;
 }
 
-.promo .promo-main .form .checked,
-.sale .sale-main .form .checked {
+.inputfile + label {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #007FCC;
+    background-color: #242424;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Gilroy';
+    font-weight: 800;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #068DDF;
+}
+
+.promo .promo-main .form .form-hover:hover,
+.sale .sale-main .form .form-hover:hover {
+    background-color: #fff;
+    color: #242424;
+}
+
+.promo .form .checked,
+.sale .form .checked {
     display: flex;
 }
 
-.promo .promo-main .form .checked p,
-.sale .sale-main .form .checked p {
+.promo .form .checked p,
+.sale .form .checked p {
     border-width: 0px;
     text-align: left;
     font-size: 14px;
@@ -247,7 +268,7 @@ a {
 }
 
 .promo .promo-wrapper {
-    padding-top: 44px;
+    padding-top: 64px;
     width: 1200px;
 }
 
@@ -275,6 +296,14 @@ a {
     display: block;
     margin: 0 auto;
     margin-top: 10px;
+}
+
+.promo .promo-wrapper p {
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-family: 'Gilroy';
+    font-weight: 300;
 }
 
 .priority {
@@ -1102,7 +1131,7 @@ a {
 
 .sale .sale-img {
     padding-top: 75px;
-	min-height: 790px;
+	min-height: 60px;
 	width: 1940px;
 	margin: 0 auto; 
 	background: url("../img/sale/bl7.jpg") no-repeat;
@@ -1120,6 +1149,10 @@ a {
     margin-bottom: 30px;
 }
 
+.sale .sale-main .form {
+    margin-top: 60px;
+}
+
 .sale .sale-main p {
     width: 713px;
     line-height: 27px;
@@ -1128,6 +1161,10 @@ a {
     font-family: 'Gilroy';
     font-weight: 300;
     margin-top: 20px;
+}
+
+.sale .sale-main p:last-child {
+    margin-top: 0;
 }
 
 .contacts{
