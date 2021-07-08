@@ -220,6 +220,14 @@ a {
     position: relative;
     padding: 6px 6px 6px 17px;
 }
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
 
 .promo .promo-main .form .checked,
 .sale .sale-main .form .checked {
