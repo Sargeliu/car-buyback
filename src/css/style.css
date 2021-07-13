@@ -92,7 +92,7 @@ a {
     font-weight: 800;
 }
 
-.promo .subheader-list .subheader-item .logo-img::before {
+/* .promo .subheader-list .subheader-item .logo-img::before {
     content: ' ';
     z-index: 1;
     display: block;
@@ -102,7 +102,7 @@ a {
     height: 42px;
     top: 10px;
     right: 100px;
-}
+} */
 
 .promo .subheader-list .subheader-item .light,
 .main-footer .subheader-list .subheader-item .light {
@@ -700,6 +700,8 @@ a {
 }
 
 .time .time-form {
+    position: relative;
+    z-index: 10;
     margin-top: 75px;
 }
 
